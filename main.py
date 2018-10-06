@@ -53,6 +53,6 @@ def webEncrypt():
 
 @app.route("/")
 def index():
-    return form
+    return form.format(" ")
 
 app.run()
